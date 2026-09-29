@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","target":"static","spaFallback":true},{"path":"/assets/*","target":"static","cache":"immutable"},{"path":"/*","target":"static","spaFallback":true}]}

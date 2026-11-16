@@ -1,0 +1,333 @@
+{
+  "checks": [
+    {
+      "name": "file exists: index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: style.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: nour-refresh.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: app.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: adhkar-data.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: quran-data/chapters.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: quran-data/uthmani.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: quran-data/surah-reciters.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/illustrations/home-hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/illustrations/quran-hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/illustrations/audio-hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/illustrations/adhkar-morning.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/icons/nour-mark.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/icons/icon-192.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/icons/icon-512.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "file exists: assets/icons/maskable-512.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PWA 192/512 maskable PNG",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Quran chapter count untouched",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Adhkar category count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "All 4 original local illustrations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile home heading",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile navigation icons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile header logo rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile splash images displayed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile no horizontal scroll",
+      "pass": true,
+      "detail": "390"
+    },
+    {
+      "name": "mobile distinct adhkar images",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "name": "mobile vector icon on every card",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile adhkar list loads",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile 114 surahs render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile Quran search filters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile Quran page opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile audio player visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile reciter rows render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile more icons rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile tasbih screen opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile tasbih increments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile tasbih resets",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile light theme toggled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile light theme reciter text contrast style",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile no browser runtime exceptions",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile no local asset HTTP errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "desktop home heading",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop navigation icons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop header logo rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop splash images displayed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop no horizontal scroll",
+      "pass": true,
+      "detail": "1365"
+    },
+    {
+      "name": "desktop distinct adhkar images",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "name": "desktop vector icon on every card",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop adhkar list loads",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop 114 surahs render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop Quran search filters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop Quran page opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop audio player visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop reciter rows render",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop more icons rendered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop tasbih screen opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop tasbih increments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop tasbih resets",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop light theme toggled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop light theme reciter text contrast style",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop no browser runtime exceptions",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "desktop no local asset HTTP errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Offline home data after first visit",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "screenshots": [
+    "mobile-home.png",
+    "mobile-adhkar.png",
+    "mobile-quran.png",
+    "mobile-more.png",
+    "mobile-light-audio.png",
+    "desktop-home.png",
+    "desktop-adhkar.png",
+    "desktop-quran.png",
+    "desktop-more.png",
+    "desktop-light-audio.png"
+  ],
+  "warnings": [],
+  "errors": []
+}

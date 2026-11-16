@@ -1,0 +1,204 @@
+/* Nour Al-Muslim UI refresh — RTL, responsive, accessible. 2026-11-16.
+   Additive stylesheet: original visual identity and all content remain intact. */
+:root{
+  --bg:#061522;--surface:#0f2133;--surface2:#162d43;
+  --line:#35506a;--gold:#f6cd70;--gold2:#e9b951;
+  --text:#f5f7fc;--muted:#b3c6d8;--green:#9fe6c7;
+  --focus:#ffe6a4;
+}
+body{
+  background:radial-gradient(ellipse at 77% -12%,#1c3c55 0,#091b2d 42%,#061522 72%);
+  line-height:1.6;
+}
+.skip-link{position:fixed;top:-100px;inset-inline-start:12px;z-index:200;background:#f6cd70;color:#132238;padding:10px 18px;border-radius:12px;font-weight:800}
+.skip-link:focus{top:12px}
+.shell{max-width:1140px;padding-top:16px}
+.topbar{
+  position:relative;padding:12px 15px;margin:0 0 21px;border:1px solid #48607870;
+  border-radius:23px;background:#0e2132cd;box-shadow:0 10px 34px #0002;
+}
+.brand{max-width:100%;gap:11px}
+.brand img{width:52px;height:52px;border-radius:17px;object-fit:contain;background:#09182a}
+.brand h1{font-size:24px;letter-spacing:.1px;line-height:1.55}
+.brand p{font-size:11px;line-height:1.5}
+.topbar .icon-btn{
+  width:46px;height:46px;border-color:#5c6e814c;
+  background:#142d44;color:var(--gold);
+}
+.topbar .icon-btn svg{width:22px;height:22px}
+button{touch-action:manipulation}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{
+  outline:3px solid var(--focus);outline-offset:3px;
+}
+.hero{
+  isolation:isolate;min-height:326px;padding:36px;border-color:#6d7d7f80;
+  border-radius:28px;background-size:cover;background-position:center 56%;
+  box-shadow:0 18px 54px #0004;align-items:center;
+}
+.hero:after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(0deg,#06121b33,transparent 48%);
+}
+.hero>div{max-width:600px}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  color:#fae3ab;background:#051827b8;border:1px solid #f6cd7070;
+  padding:5px 13px;border-radius:999px;margin-bottom:16px;font-size:12px;font-weight:800;
+}
+.hero h2{font-size:clamp(28px,3.5vw,42px);line-height:1.5;text-shadow:0 2px 12px #0008}
+.hero p{font-size:16px;max-width:470px;line-height:2;color:#f6f8fd;text-shadow:0 2px 12px #0009}
+.cta{
+  min-height:44px;background:linear-gradient(130deg,#ffdf96,#ecc06a);
+  color:#17243a;border-radius:14px;
+  box-shadow:0 7px 22px #a8802d30;transition:transform .17s,filter .17s;
+}
+.cta:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.section-head{margin-top:30px;margin-bottom:15px}
+.section-head h2{font-size:23px;line-height:1.5;color:var(--text)}
+.section-head span{line-height:1.65}
+.cards{gap:15px}
+.card{
+  min-height:206px;border-radius:22px;padding:19px;
+  box-shadow:0 11px 30px #0002;
+  background-size:cover!important;background-position:center!important;
+  transition:transform .2s,border-color .2s,box-shadow .2s;
+  display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;
+}
+.card:hover{border-color:#e8c67b;transform:translateY(-3px);box-shadow:0 16px 35px #0005}
+.card:before{background:linear-gradient(180deg,#02101c09 10%,#04131cee 100%)}
+.card h3{margin:0 0 5px;font-size:19px;line-height:1.5;color:#fff}
+.card p{color:#dde7f1;line-height:1.7}
+.card-symbol{
+  position:absolute;top:18px;right:18px;width:43px;height:43px;border-radius:14px;
+  display:grid;place-items:center;background:#061b30ba;border:1px solid #eac87984;color:#ffdb83;
+}
+.card-symbol svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.arrow{
+  width:36px;height:36px;display:grid;place-items:center;background:#08243cbd;
+  font-size:20px;top:18px;left:18px;border-color:#f6cf78;
+}
+.panel{border-color:#36536b;background:#0c1e30;padding:23px}
+.panel>strong{font-size:17px}
+.panel .cta{margin-top:6px}
+.surah{gap:13px;border-color:#36506a;background:#11283d;min-height:70px;transition:background .2s}
+.surah:hover{background:#1a344b}
+.surah strong{font-size:16px}
+.surah .badge-num{font-weight:800}
+.search input{min-height:48px}
+.dhikr-entry{box-shadow:0 8px 24px #0002;gap:12px}
+.dhikr-text{line-height:2.35}
+.reciter-row{min-height:67px;border-color:#3d5871}
+.reciter-avatar{width:43px;height:43px;background:#1e3850;border-color:#54738d}
+.reciter-avatar svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.more-grid{gap:14px}
+.more-card{
+  min-height:153px;box-shadow:0 8px 25px #0002;
+  transition:border-color .18s,transform .18s;
+  display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;
+}
+.more-card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.more-icon{
+  display:grid!important;place-items:center;width:47px;height:47px;
+  border-radius:15px;background:#e3b7571a;border:1px solid #edc56f69;
+  color:#f7cf77!important;
+}
+.more-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.more-card strong{font-size:16px;margin-top:15px}
+.more-card small{font-size:12px;line-height:1.65}
+.bottom-nav{
+  background:#071727f2;border-top-color:#4d6279a0;
+  box-shadow:0 -12px 40px #0003;justify-content:space-evenly;
+  padding-inline:7px;
+}
+.nav-btn{min-height:65px;max-width:160px;flex:1;gap:5px;color:#a5b4c8}
+.nav-btn.active{background:#f6cf780b;color:var(--gold);border-bottom:3px solid var(--gold)}
+.nav-btn .nav-glyph{height:25px}
+.nav-btn .nav-glyph svg{width:23px;height:23px}
+.nav-btn span:last-child{font-weight:700;letter-spacing:0}
+.toast{box-shadow:0 10px 32px #0005;white-space:normal}
+.settings label,.reading{line-height:2}
+.error-shell{text-align:center;min-height:60vh;display:grid;align-content:center;justify-items:center}
+.error-shell h1{font-size:25px}
+.error-shell p{max-width:500px;line-height:2}
+
+/* Dark photos still require appropriate text contrast in light theme. */
+.light{
+  --bg:#f3f7fa;--surface:#fff;--surface2:#eff4f8;--line:#bdcddd;
+  --text:#122a40;--muted:#4e657c;--focus:#936617;
+  background:linear-gradient(145deg,#eff5f8,#f8fbfc);
+}
+.light .topbar{background:#fffffff0;border-color:#ccdae3}
+.light .topbar .icon-btn{background:#163147;color:#f9cf75}
+.light .panel{background:#fff;border-color:#c7d7e1}
+.light .surah{background:#f8fbff;border-color:#cbd9e2}
+.light .surah:hover{background:#eaf2f9}
+.light .more-card,.light .reciter-row{background:linear-gradient(135deg,#fff,#edf5fc);border-color:#c1d2df;color:#122a40}
+.light .more-card strong,.light .reciter-info strong{color:#122a40}
+.light .more-card small,.light .reciter-info small{color:#516577}
+.light .reciter-row.selected{background:#fff7e8;border-color:#ac7f29}
+.light .reciter-avatar{background:#eef5fb;color:#825c23;border-color:#b4cad7}
+.light .more-icon{background:#fff2d3;border-color:#d4b46c;color:#8b621d!important}
+.light .audio-file{background:#f6f9fc;border-color:#cbd9e3}
+.light .audio-file a{color:#8a5d15}
+.light .player-status{color:#41586a}
+.light .bottom-nav{background:#fffdfbe9;border-color:#d0dbe4;box-shadow:0 -8px 24px #184b6f12}
+.light .nav-btn{color:#576b7e}
+.light .nav-btn.active{color:#8b5c14;background:#fff8e8}
+.light .hero h2,.light .hero p,.light .card h3,.light .card p{color:#fff}
+.light .section-head h2{color:#173047}
+.light .brand p{color:#4e657b}
+.light .search input{background:#fff;color:#132b40}
+.light .icon-btn:hover{filter:brightness(1.1)}
+.light .tab.active{background:#fff1d2;color:#76521c}
+.light .custom-player .player-hero p{color:#fff}
+.light .dhikr-entry{background:#fff;border-color:#d1dee6}
+.light .dhikr-entry small{color:#8e6220}
+.light .reading-actions{background:#fff}
+
+/* Thumb-friendly mobile and narrow viewport behaviour. */
+@media(max-width:700px){
+  .shell{padding:11px 12px calc(94px + env(safe-area-inset-bottom))}
+  .topbar{padding:8px 9px;border-radius:17px;margin-bottom:15px;gap:6px;grid-template-columns:42px minmax(0,1fr) 42px}
+  .topbar .icon-btn{width:40px;height:40px}
+  .topbar .brand img{width:40px;height:40px}
+  .brand h1{font-size:19px}
+  .brand p{font-size:9px}
+  .hero{min-height:267px;padding:23px;border-radius:22px;background-position:center}
+  .hero-eyebrow{font-size:10px;margin-bottom:10px}
+  .hero h2{font-size:clamp(24px,7vw,32px)}
+  .hero p{font-size:13px;max-width:295px;line-height:1.8}
+  .section-head{margin:23px 1px 12px}
+  .section-head h2{font-size:19px}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .card{min-height:187px;padding:14px;border-radius:16px}
+  .card h3{font-size:14px;line-height:1.55}
+  .card p{font-size:10px;line-height:1.6}
+  .card-symbol{width:37px;height:37px;top:13px;right:13px;border-radius:12px}
+  .card-symbol svg{width:22px;height:22px}
+  .arrow{top:14px;left:13px;width:30px;height:30px}
+  .panel{padding:17px;border-radius:17px}
+  .surah{min-height:63px}
+  .surah strong{font-size:14px}
+  .more-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+  .more-card{min-height:150px;padding:16px;border-radius:17px}
+  .more-card strong{font-size:15px}
+  .more-card small{font-size:11px}
+  .nav-btn{min-height:62px;padding:7px 2px 6px;max-width:20%}
+  .nav-btn span:last-child{font-size:10px}
+  .nav-btn .nav-glyph svg{width:21px;height:21px}
+  .reciter-avatar{width:38px;height:38px}
+  .dhikr-text{font-size:19px}
+}
+@media(max-width:385px){
+  .card{min-height:180px;padding:12px}
+  .card h3{font-size:13px}
+  .card p{font-size:9px}
+  .hero h2{font-size:24px}
+  .brand h1{font-size:17px}
+  .brand img{width:35px;height:35px}
+  .topbar .icon-btn{width:36px;height:36px}
+}
+@media(prefers-reduced-motion:reduce){
+  .card,.more-card,.cta{transition:none}
+  .card:hover,.more-card:hover,.cta:hover{transform:none}
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">نور المسلم، هلال ذهبي ونجمة</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142e46"/><stop offset="1" stop-color="#061522"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0a6"/><stop offset=".52" stop-color="#edbe55"/><stop offset="1" stop-color="#bb8330"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="105" fill="none" stroke="#f3c766" stroke-opacity=".25" stroke-width="5"/>
+  <circle cx="244" cy="235" r="131" fill="url(#gold)"/>
+  <circle cx="305" cy="188" r="119" fill="url(#bg)"/>
+  <path d="M360 247l14 30 34 4-25 22 7 33-30-16-30 16 6-33-24-22 34-4Z" fill="url(#gold)"/>
+  <path d="M181 385h150" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="256" cy="385" r="7" fill="#fff2b8"/>
+</svg>
